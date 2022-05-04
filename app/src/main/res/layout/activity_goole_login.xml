@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.GoogleActivity"
+    android:background="@color/read_theme_0_bg"
+    tools:ignore="MissingDefaultResource">
+
+
+        <TextView
+            android:id="@+id/logo_only"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="Log In Via"
+            android:textColor="#555555"
+            android:textSize="26sp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/subsamplingImageView"
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/logo_only"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/icon_google_logo" />
+
+
+
+
+
+</RelativeLayout>

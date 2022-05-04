@@ -1,0 +1,26 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="margin_left_right">22dp</dimen>
+    <dimen name="margin_top">24dp</dimen>
+
+
+    <!-- read -->
+    <dimen name="read_margin_top">45dp</dimen>
+    <dimen name="read_margin_start">20dp</dimen>
+    <dimen name="read_seek_bar_thumb_width">15dp</dimen>
+    <dimen name="read_bottom_bar_first_height">50dp</dimen>
+    <dimen name="read_bottom_bar_second_height">60dp</dimen>
+    <dimen name="read_bottom_bar_third_height">40dp</dimen>
+    <dimen name="read_bottom_bar_text_size">12sp</dimen>
+    <dimen name="read_brightness_bar_first_height">60dp</dimen>
+    <dimen name="read_brightness_bar_second_height">60dp</dimen>
+    <dimen name="read_switch_thumb_size">20dp</dimen>
+    <dimen name="read_switch_track_radius">20dp</dimen>
+    <dimen name="read_setting_bar_first_height">70dp</dimen>
+    <dimen name="read_setting_bar_second_height">30dp</dimen>
+    <dimen name="read_setting_bar_third_height">30dp</dimen>
+    <dimen name="read_theme_radius">15dp</dimen>
+    <dimen name="read_turn_bg_radius">15dp</dimen>
+    <dimen name="read_turn_bg_stroke_width">1dp</dimen>
+    <dimen name="read_turn_text_size">13sp</dimen>
+</resources>

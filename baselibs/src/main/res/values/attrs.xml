@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LrcView">
+        <attr name="lrcTextSize" format="dimension" />
+        <attr name="lrcNormalTextSize" format="dimension" />
+        <attr name="lrcDividerHeight" format="dimension" />
+        <attr name="lrcNormalTextColor" format="reference|color" />
+        <attr name="lrcCurrentTextColor" format="reference|color" />
+        <attr name="lrcTimelineTextColor" format="reference|color" />
+        <attr name="lrcAnimationDuration" format="integer" />
+        <attr name="lrcLabel" format="string" />
+        <attr name="lrcPadding" format="dimension" />
+        <attr name="lrcTimelineColor" format="reference|color" />
+        <attr name="lrcTimelineHeight" format="dimension" />
+        <attr name="lrcPlayDrawable" format="reference" />
+        <attr name="lrcTimeTextColor" format="reference|color" />
+        <attr name="lrcTimeTextSize" format="dimension" />
+        <attr name="lrcTextGravity">
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="pickerview">
+        <attr name="pickerview_gravity">
+            <enum name="center" value="17"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="pickerview_centerBackground" format="color"/>
+        <attr name="pickerview_textSize" format="dimension"/>
+        <attr name="pickerview_textColorOut" format="color"/>
+        <attr name="pickerview_textColorCenter" format="color"/>
+        <attr name="pickerview_dividerColor" format="color"/>
+        <attr name="pickerview_lineSpacingMultiplier" format="float"/>
+        <attr name="pickerview_isLoop" format="boolean"/>
+        <attr name="pickerview_initPosition" format="integer"/>
+        <attr name="pickerview_visibleItemCount" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="DropIndicator">
+        <attr name="color1" format="color"></attr>
+        <attr name="color2" format="color"></attr>
+        <attr name="color3" format="color"></attr>
+        <attr name="color4" format="color"></attr>
+        <attr name="click_color" format="color"></attr>
+        <attr name="circle_color_d" format="color"></attr>
+        <attr name="radius" format="dimension"></attr>
+        <attr name="scale" format="float"></attr>
+        <attr name="duration" format="integer"></attr>
+    </declare-styleable>
+</resources>

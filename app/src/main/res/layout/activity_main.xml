@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="@dimen/margin_left_right" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="@dimen/margin_left_right" />
+
+    <ImageView
+        android:id="@+id/iv_top_bg"
+        android:layout_width="0dp"
+        android:layout_height="230dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/icon_home_top"/>
+    <ImageView
+        android:id="@+id/iv_book_top"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:layout_constraintLeft_toLeftOf="@id/guideline_start"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="40dp"
+        android:src="@mipmap/icon_home_book"/>
+
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="0dp"
+            android:layout_height="41dp"
+            android:layout_weight="10"
+            android:imeOptions="actionSearch"
+            android:maxLines="1"
+            android:paddingLeft="6dp"
+            android:hint="Search Here"
+            android:textColor="@color/text_black"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:background="@drawable/bg_search"
+            android:orientation="horizontal"
+            app:layout_constraintLeft_toLeftOf="@+id/guideline_start"
+            app:layout_constraintRight_toRightOf="@id/guideline_end"
+            app:layout_constraintTop_toBottomOf="@+id/iv_book_top"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"/>
+    <ImageView
+        android:id="@+id/iv_book_close"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintLeft_toLeftOf="@id/et_search"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_top_bg"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:src="@mipmap/icon_home_book_close"
+        android:padding="10dp"
+        android:background="@drawable/bg_home_two_button"/>
+
+    <ImageView
+        android:id="@+id/iv_setting"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintRight_toRightOf="@id/et_search"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_top_bg"
+        android:layout_marginBottom="@dimen/margin_top"
+        android:src="@mipmap/icon_home_settings"
+        android:padding="10dp"
+        android:background="@drawable/bg_home_two_button"/>
+
+
+    <fragment
+        android:id="@+id/nav_host_fragment_content_main"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_top_bg"
+        app:navGraph="@navigation/nav_graph" />
+</androidx.constraintlayout.widget.ConstraintLayout>

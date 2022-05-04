@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="green">#1f9913</color>
+    <color name="yellow">#DA6203</color>
+    <color name="blue">#00BFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="controller_bg_dark">#66000000</color>
+    <color name="controller_bg_light">#00000000</color>
+
+    <color name="hint_text_color">#ffaaaaaa</color>
+    <color name="text_gray">#AAAAAA</color>
+    <color name="blue_sky">#2081ed</color>
+    <color name="text_black">#474747</color>
+    <color name="up">#88cccccc</color>
+    <color name="lrc_normal_text_color">#9E9E9E</color>
+    <color name="lrc_current_text_color">#FF4081</color>
+    <color name="lrc_timeline_text_color">#F8BBD0</color>
+    <color name="lrc_timeline_color">#809E9E9E</color>
+    <color name="lrc_time_text_color">#809E9E9E</color>
+    <color name="theme_white">#5BBAAF</color>
+    <color name="theme_black">#252424</color>
+
+    <color name="blueBar">#349af9</color>
+    <color name="blueDark">#4543F3</color>
+    <color name="blue_sky_people">#ee2081ed</color>
+
+    <color name="translucent">#00000000</color>
+
+
+</resources>

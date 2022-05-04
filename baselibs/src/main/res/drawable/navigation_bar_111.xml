@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="12dp" />
+            <!--填充颜色-->
+            <gradient android:endColor="#F7332E" android:startColor="#FF8352" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="12dp" />
+            <!--填充颜色-->
+            <gradient android:endColor="#0092FE" android:startColor="#0092FE" />
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <!--圆角-->
+            <corners android:radius="12dp" />
+            <!--填充颜色-->
+            <gradient android:endColor="#F7332E" android:startColor="#FF8352" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 圆角 -->
+            <corners android:radius="12dp" />
+            <!--填充颜色-->
+            <solid android:color="#FFFFFF" />
+        </shape>
+    </item>
+</selector>

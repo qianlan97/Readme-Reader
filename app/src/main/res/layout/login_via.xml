@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/viewWelcom"
+    tools:context=".ui.WelcomeActivity"
+    android:background="@color/read_theme_0_bg"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/ivWelcomGif"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:src="@mipmap/icon_home_book" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivWelcomGif"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="ReadMe"
+        android:textColor="#555555"
+        android:textSize="26sp"
+        android:textStyle="italic" />
+
+
+
+</RelativeLayout>
